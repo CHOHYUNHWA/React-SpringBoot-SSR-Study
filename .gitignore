@@ -1,0 +1,48 @@
+# === Java / Gradle (Spring Boot) ===
+/build/
+/out/
+/bin/
+/target/
+
+# Gradle 관련
+.gradle/
+/!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# IDE 설정
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.class
+
+# 로그 & 환경 설정
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+.env
+.env.*
+
+# === Node / React (Vite) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/package-lock.json   # (공유 원하면 제외 가능)
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# === OS 관련 ===
+Thumbs.db
+.DS_Store
+ehthumbs.db
+Icon?
